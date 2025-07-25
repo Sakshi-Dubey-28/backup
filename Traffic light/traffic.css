@@ -1,0 +1,65 @@
+body{
+    background-color:grey;
+}
+#Trafficlight{
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#box1{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#box2{
+    background-color: black;
+    height: 350px;
+    width: 140px;
+    border-radius:10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#box3{
+    background-color: rgb(129, 33, 33);
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    border:solid;
+}
+#box3:hover{
+    background-color:red
+}
+#box4{
+    background-color:rgb(130, 130, 26);
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    border:solid;
+}
+#box4:hover{
+    background-color:rgb(255, 255, 3)
+}
+#box5{
+    background-color:rgb(32, 104, 32);
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    border:solid;
+}
+#box5:hover{
+    background-color:rgb(7, 250, 7)
+}
+#box6{
+    background-color: black;
+    height: 450px;
+    width: 30px;
+
+}
