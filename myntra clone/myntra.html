@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Myntra Clone</title>
+  <link rel="stylesheet" href="myntra.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav id="header">
+    <div class="header-left">
+      <img id="logo1" src="WhatsApp_Image_2024-09-20_at_22.09.00__1_-removebg-preview.png" alt="Myntra Logo">
+    </div>
+
+    <div class="main-nav">
+      <ul>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">HOME & LIVING</a></li>
+        <li><a href="#">BEAUTY</a></li>
+        <li><a href="#">GENZ</a></li>
+        <li id="studio-container">
+          <span id="studio-text">STUDIO</span>
+          <sup id="new-text">NEW</sup>
+        </li>
+      </ul>
+    </div>
+
+    <div id="searchbox-container">
+      <div id="searchicondiv">
+        <i id="searchicon" class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <input id="searchbox" placeholder="Search for Products, Brands and More" type="text" />
+    </div>
+
+    <div class="user-actions">
+      <div class="action-item">
+        <i class="fa-regular fa-user"></i>
+        <span>Profile</span>
+      </div>
+      <div class="action-item">
+        <i class="fa-regular fa-heart"></i>
+        <span>Wishlist</span>
+      </div>
+      <div class="action-item">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>Bag</span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="slider">
+      <input type="radio" name="slide" id="slide1"/>
+      <input type="radio" name="slide" id="slide2" />
+      <input type="radio" name="slide" id="slide3" />
+
+      <div class="slides">
+        <div class="slide"><img src="myntra bags.png" alt="Slide 1" /></div>
+        <div class="slide"><img src="myntra fashion.png" alt="Slide 2" /></div>
+        <div class="slide"><img src="myntra logo.png" alt="Slide 3" /></div>
+      </div>
+    </section>
+      <div class="navigation-manual">
+        <label for="slide1" class="manual-btn"></label>
+        <label for="slide2" class="manual-btn"></label>
+        <label for="slide3" class="manual-btn"></label>
+      </div>
+  </main>
+
+</body>
+</html>
