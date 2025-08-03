@@ -888,6 +888,7 @@ body {
 .recommendation-box {
   width: 100%;
   max-width: 340px;
+  margin: 60px auto;
   padding: 20px;
   border: 1px solid #ccc;
   text-align: center;
